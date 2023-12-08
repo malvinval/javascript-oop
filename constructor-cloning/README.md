@@ -14,7 +14,7 @@ function Attributes(__brand, __name, __price) {
 }
 
 function Motorcycle(__brand, __name, __price) {
-    // use attributes and methods from Car constructor function
+    // use attributes and methods from Attributes constructor function
     Attributes.call(this, __brand, __name, __price);
 
     this.startEngine = function() {
