@@ -60,7 +60,7 @@ webDeveloper1.whoAmI();
 webDeveloper1.getField();
 ```
 
-Lihat dan pahami kode diatas. Setiap class yang ingin diwariskan harus menggunakan keyword `extends`. Apa gunanya keyword `super()`? Keyword `super()` tersebut berguna bagi *child class* untuk mengakses constructor milik *parent class* (pewaris).
+Lihat dan pahami kode diatas. Setiap class yang ingin diwariskan harus menggunakan keyword `extends`. Apa gunanya keyword `super()`? Keyword `super()` tersebut berguna bagi *child class* untuk mengakses *parent class* (pewaris).
 
 Bagaimana dengan method `getField()` milik class `Programmer`? Apakah method tersebut bisa diakses oleh class `Manager` dan `Supervisor`? Jawabannya **tidak**. Karena class `Manager` dan `Supervisor` bukan anak (keturunan) dari class `Programmer` sehingga class `Programmer` tidak mewariskan apapun kepada mereka.
 
