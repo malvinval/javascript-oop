@@ -89,3 +89,5 @@ student1.name = "Brendan Eich";
 ```
 
 Kode diatas menunjukkan bahwa kita dapat mengisi nilai properti `_studentId` dan `_name` melalui perantara method `studentId` dan `name`. Tidak secara langsung mengisi nilai propertynya.
+
+**Important note**: Jangan gunakan penamaan yang sama untuk properti dan setter-getter methods.
